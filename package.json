@@ -1,0 +1,5 @@
+{
+  "dependencies": {
+    "pubsubhubbub": "^0.4.1"
+  }
+}
