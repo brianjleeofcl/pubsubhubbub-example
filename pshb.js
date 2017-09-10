@@ -16,7 +16,9 @@ pshb.on('error', error => {
 })
 
 pshb.on('feed', data => {
-  console.log(require('util').inspect(data));
+  const feed = data.feed.toString('utf-8');
+
+  console.log(feed);
 })
 
 pshb.listen(process.env.PORT || 8000);
