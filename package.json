@@ -1,5 +1,8 @@
 {
   "dependencies": {
     "pubsubhubbub": "^0.4.1"
+  },
+  "engines": {
+    "node": "8.4.0"
   }
 }
